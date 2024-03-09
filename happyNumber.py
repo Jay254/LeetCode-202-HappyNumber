@@ -25,7 +25,7 @@ def isHappy(n):
 print(isHappy(19))  # Output: True
 
 # Example 2: n = 2
-# This number enters a cycle: 2 -> 4 -> 16 -> 37 -> 58 -> 89 -> 145 -> 42 -> 20 -> 4 -> 16 -> 37 -> 58 -> 89 -> 145 -> 42 -> 20
+# This number enters a cycle: 2 -> 4 -> 16 -> 37 -> 58 -> 89 -> 145 -> 42 -> 20 -> 4 -> 16 -> 37 -> 58 -> 89 -> 145 -> 42 -> 20 the circle keeps repeating
 # Since it's in a cycle and never reaches 1, it's not a happy number
 print(isHappy(2))   # Output: False
 
